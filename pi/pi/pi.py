@@ -4,7 +4,7 @@ import time
 print ("tankPi v1")
 print (math.pi)
 
-maxSteps = 10000000
+maxSteps = 100000000
 pi = 0
 addsub = 'a'
 

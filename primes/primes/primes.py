@@ -10,10 +10,11 @@ def is_prime_v2(n):
     for d in range(2,1+max_divisor):
         if n % d == 0:
             return False
+    print (n)    
     return True
 
 t0 = time.time()
-for n in range(1, 100000):
+for n in range(1, 1000000):
     is_prime_v2(n)
 t1 = time.time()
 print("Time required: ", t1 - t0)
